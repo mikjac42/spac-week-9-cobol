@@ -1,0 +1,8 @@
+      ******************************************************************
+      * Copybook til kontooplysninger                                  *
+      ******************************************************************
+       02  KUNDE-ID        PIC X(10).
+       02  KONTO-ID        PIC X(10).
+       02  KONTO-TYPE      PIC X(20).
+       02  BALANCE         PIC Z(6)9V99.
+       02  VALUTA-KD       PIC X(3).

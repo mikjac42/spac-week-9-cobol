@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. HELLO.
+       PROGRAM-ID. Opgave1.
 
        DATA DIVISION.
 

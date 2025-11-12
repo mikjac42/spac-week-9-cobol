@@ -1,11 +1,12 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. opgave5.
+       PROGRAM-ID. Opgave5.
        
 
        DATA DIVISION.
        
 
        WORKING-STORAGE SECTION.
+      * Indlæs copybook med kundeinformations variabler
        01 KUNDEOPL.
            COPY "copybooks/KUNDEOPL.cpy".
 

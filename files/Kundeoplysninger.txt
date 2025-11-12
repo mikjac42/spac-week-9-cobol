@@ -1,0 +1,5 @@
+0001      Jens                Hansen              Bagergade                     12   1    tv.  Vejle               7100DK12345678jens.hansen@example.com                          
+0002      Anna                Nielsen             Laerkevej                     5    2    th.  Koebenhavn N        2200DK23456789anna.nielsen@example.com                         
+0003      Peter               Soerensen           Skovvej                       8    st.  mf.  Odense              5000DK34567890peter.soerensen@example.com                      
+0004      Maria               Jensen              Parkalleen                    15   3    tv.  Roskilde            4000DK45678901maria.jensen@example.com                         
+0005      Lars                Pedersen            Elmvej                        20   1    th.  Esbjerg             6700DK56789012lars.pedersen@example.com                        

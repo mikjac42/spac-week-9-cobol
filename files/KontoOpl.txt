@@ -1,0 +1,5 @@
+0003      5490735412Nemkonto            13472.86 DKK
+0002      3948938385Opsparingskonto     130628.50DKK
+0001      4128057155Aktiesparekonto     174200.00DKK
+0005      5256489855Nemkonto            0.27     DKK
+0003      8563116637Aktiesparekonto     250000.00DKK

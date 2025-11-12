@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. opgave2.
+       PROGRAM-ID. Opgave2.
        
        DATA DIVISION.
        
