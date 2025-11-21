@@ -82,7 +82,6 @@
        MAIN-PROCEDURE.
        PERFORM POPULATE-KONTO-RECORDS
        OPEN INPUT INPUT-FILE-KUNDEOPL.
-      * OPEN INPUT INPUT-FILE-KONTOOPL.
        OPEN OUTPUT OUTPUT-FILE.
        PERFORM UNTIL EOF-REACHED
            READ INPUT-FILE-KUNDEOPL INTO KUNDE-RECORD
@@ -222,39 +221,6 @@
                WRITE OUTPUT-RECORD
            END-IF
        END-PERFORM.
-
-      * SKRIV-KUNDE-KONTI-TIL-OUTPUT.
-      * Skriv kundens kontooplysninger til output fil
-      * OPEN INPUT INPUT-FILE-KONTOOPL
-      * SET EOF-NOT-REACHED TO TRUE
-      * PERFORM UNTIL EOF-REACHED
-      *     READ INPUT-FILE-KONTOOPL INTO KONTO-RECORD
-      *         AT END
-      *             SET EOF-REACHED TO TRUE
-      *         NOT AT END
-      *             IF KUNDE-ID IN 
-      *                 KONTO-RECORD = KUNDE-ID IN KUNDEOPL
-      *                 IF IS-FIRST-ENTRY
-      *                     MOVE SPACES TO OUTPUT-TEXT
-      *                     STRING 
-      *               "-------------------------------------------------"
-      *                     INTO OUTPUT-TEXT
-      *                     WRITE OUTPUT-RECORD
-      *                     SET IS-NOT-FIRST-ENTRY TO TRUE
-      *                 END-IF
-      *                 MOVE SPACES TO OUTPUT-TEXT
-      *                 STRING
-      *                     KONTO-ID " | "
-      *                     KONTO-TYPE " | "
-      *                      BALANCE " " VALUTA-KD
-      *                     INTO OUTPUT-TEXT
-      *                 WRITE OUTPUT-RECORD
-      *             END-IF
-      *     END-READ
-      * END-PERFORM
-      * SET EOF-NOT-REACHED TO TRUE
-      * SET IS-FIRST-ENTRY TO TRUE
-      * CLOSE INPUT-FILE-KONTOOPL.
 
        PRINT-KUNDEINFO.
       * Print kundeinformation

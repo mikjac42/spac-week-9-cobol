@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# NestJS / TypeScript
+dist/
+*.tsbuildinfo
+
+# Temporary files
+movie_id.txt
+movie_result.json
+
+# COBOL compiled
+*.exe
+*.o
+*.obj
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*.backup
